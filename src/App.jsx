@@ -60,7 +60,7 @@ else{
         </div>
        
         <button className="calculate-button" onClick={calculateBmi}>Calculate  BMI</button> 
-        <button className='bt2' onClick={ClearAll}></button>
+      
          { bmi !== null && ( 
           <div className="result">
           <p>your bmi is : {bmi}</p>
